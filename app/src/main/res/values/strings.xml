@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Reconnect_HousingApplication</string>
+    <string name="change_languange">Change Languange</string>
+    <string name="add">ADD</string>
+    <string name="complain_list">Complain List</string>
+    <string name="login">Login</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="registration">Registration</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="member_registration">Member Registration</string>
+    <string name="register_society">Register Society</string>
+    <string name="or">or</string>
+    <string name="enter_society_name">Enter Society Name</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="enter_city">Enter City</string>
+    <string name="enter_state">Enter State</string>
+    <string name="enter_pincode">Enter Pincode</string>
+    <string name="create_society_code">Create society code</string>
+    <string name="no_of_flats">No. of flats</string>
+    <string name="no_of_wings">No. of Wings</string>
+    <string name="enter_secretary_name">Enter Secretary Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_phonenumber">Enter PhoneNumber</string>
+    <string name="submit">Submit</string>
+    <string name="society_details">Society Details</string>
+    <string name="admin_details">Admin Details</string>
+    <string name="maintenance">Maintenance</string>
+    <string name="maintenancee">Maintenance</string>
+    <string name="visitors_details">Visitors Details</string>
+    <string name="complain">Complain</string>
+    <string name="rentals">Rentals</string>
+    <string name="sell_house">Sell House</string>
+    <string name="parking">Parking</string>
+    <string name="secretory_details">Secretory Details</string>
+    <string name="help">Help</string>
+    <string name="member_details">Member Details</string>
+
+</resources>

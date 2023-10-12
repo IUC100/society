@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "570755123546",
+    "project_id": "reconnect-housingapplication",
+    "storage_bucket": "reconnect-housingapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570755123546:android:ffc405caefc96e454e0b63",
+        "android_client_info": {
+          "package_name": "com.example.reconnect_housingapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZZ5W_fAymvR3kukhelET7-cnqgSpYf9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

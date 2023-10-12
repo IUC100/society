@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.core.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="#8185A1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".RegisterSociety">
+            <EditText
+                android:id="@+id/S_societyname"
+                android:layout_width="334dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="@string/enter_society_name"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColorHint="#171212"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/S_address"
+                android:layout_width="334dp"
+                android:layout_height="0dp"
+
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="@string/enter_address"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColorHint="#171212"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S_societyname" />
+
+
+            <EditText
+                android:id="@+id/S_city"
+                android:layout_width="334dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="@string/enter_city"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColorHint="#171212"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S_address" />
+
+            <EditText
+                android:id="@+id/S_area"
+                android:layout_width="334dp"
+                android:layout_height="0dp"
+
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="88dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="@string/enter_state"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColorHint="#120202"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S_address" />
+
+            <EditText
+                android:id="@+id/S_pincode"
+                android:layout_width="334dp"
+                android:layout_height="0dp"
+
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="@string/enter_pincode"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColorHint="#090101"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S_area" />
+
+            <EditText
+                android:id="@+id/S_societycode"
+                android:layout_width="334dp"
+                android:layout_height="0dp"
+
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="@string/create_society_code"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColorHint="#090101"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S_noOfFlats" />
+
+            <EditText
+                android:id="@+id/S_noOfFlats"
+                android:layout_width="130dp"
+                android:layout_height="45dp"
+
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="@string/no_of_flats"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColorHint="#090101"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S_pincode" />
+
+            <EditText
+                android:id="@+id/S_noofwings"
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="@string/no_of_wings"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColorHint="#090101"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toEndOf="@+id/S_noOfFlats"
+                app:layout_constraintTop_toBottomOf="@+id/S_pincode" />
+
+            <EditText
+                android:id="@+id/S_secretoryDetails"
+                android:layout_width="334dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="@string/enter_secretary_name"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColorHint="#090101"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <EditText
+                android:id="@+id/S_secretoryID"
+                android:layout_width="334dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="Enter Secretary ID"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColorHint="#090101"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S_secretoryDetails" />
+
+            <EditText
+                android:id="@+id/S_password"
+                android:layout_width="334dp"
+                android:layout_height="0dp"
+
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:textColorHint="#090101"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S_secretoryID" />
+
+            <EditText
+                android:id="@+id/S_confirmpass"
+                android:layout_width="334dp"
+                android:layout_height="0dp"
+
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:textColorHint="#090101"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S_password" />
+
+            <EditText
+                android:id="@+id/S_flatno"
+                android:layout_width="114dp"
+                android:layout_height="45dp"
+
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="Flat No."
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColorHint="#090101"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S_confirmpass" />
+
+            <EditText
+                android:id="@+id/S_wingNo"
+                android:layout_width="123dp"
+                android:layout_height="42dp"
+
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="WingName "
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColorHint="#090101"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toEndOf="@+id/S_flatno"
+                app:layout_constraintTop_toBottomOf="@+id/S_confirmpass" />
+
+            <EditText
+                android:id="@+id/S_email"
+                android:layout_width="334dp"
+                android:layout_height="0dp"
+
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="@string/enter_email"
+                android:inputType="textEmailAddress"
+                android:padding="12dp"
+                android:textColorHint="#090101"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S_flatno" />
+
+            <EditText
+                android:id="@+id/S_phoneno"
+                android:layout_width="334dp"
+                android:layout_height="0dp"
+
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:hint="@string/enter_phonenumber"
+                android:inputType="phone"
+                android:padding="12dp"
+                android:textColorHint="#090101"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S_email" />
+
+            <Button
+                android:id="@+id/btnsumit"
+                android:layout_width="121dp"
+                android:layout_height="47dp"
+
+                android:layout_marginStart="136dp"
+                android:layout_marginTop="65dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/mybutton"
+                android:text="@string/submit"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S_phoneno"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="368dp"
+                android:layout_height="31dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/mybutton"
+
+                android:text="@string/society_details"
+                android:textAlignment="center"
+                android:textColor="#F8F4F4"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="365dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="144dp"
+                android:background="@drawable/mybutton"
+
+                android:text="@string/admin_details"
+                android:textAlignment="center"
+                android:textColor="#F8F4F4"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S_noOfFlats" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
